@@ -16,5 +16,5 @@ module.exports = {
 		"gatsby-plugin-mdx",
 	],
 	trailingSlash: "always"
-	  
+	  breakingbuild
 };
