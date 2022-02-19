@@ -17,5 +17,4 @@ module.exports = {
 		"gatsby-transformer-sharp"
 	],
 	trailingSlash: "always"
-	  
 };
