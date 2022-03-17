@@ -1,0 +1,9 @@
+[
+    { 
+        "fromPath": "/*",
+        "toPath": "/test/*",
+        "conditions": {
+            "country": ["us"]
+          }
+    }
+  ]
