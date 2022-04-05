@@ -1,9 +1,6 @@
 [
     { 
-        "fromPath": "/*",
-        "toPath": "/test/*",
-        "conditions": {
-            "country": ["us"]
-          }
+        "fromPath": "/404",
+        "toPath": "/"
     }
   ]
