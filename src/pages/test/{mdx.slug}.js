@@ -39,4 +39,5 @@ query ($id: String) {
   }
 `;
 
+
 export default BlogPost;
