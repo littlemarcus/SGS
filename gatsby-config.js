@@ -34,7 +34,7 @@ module.exports = {
 			  transformHeaders: (headers, path) => headers,
 			  generateMatchPathRewrites: true,
 			},
-		  },/
+		  },
 		"gatsby-plugin-mdx",
 		"gatsby-transformer-sharp"
 	],
