@@ -16,7 +16,17 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-gatsby-cloud`,
 			options: {
-			  headers: {},
+			  headers: {
+				  "/*": [
+					"X-Frame-Options: DENY",
+					"X-XSS-Protection: 1; mode=block",
+					"X-Content-Type-Options: nosniff",
+					"Referrer-Policy: same-origin",
+					"X-Frame-Options: SAMEORIGIN",
+					"Strict-Transport-Security: max-age=31536000; includeSubDomains; preload",
+					"Set-Cookie: HttpOnly;Secure;SameSite=Strict"
+				  ]
+			  },
 			  allPageHeaders: [],
 			  mergeSecurityHeaders: true,
 			  mergeLinkHeaders: true,
