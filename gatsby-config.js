@@ -37,6 +37,6 @@ module.exports = {
 		  },
 		"gatsby-plugin-mdx",
 		"gatsby-transformer-sharp"
-	],
+	],/
 	trailingSlash: "always"
 };
