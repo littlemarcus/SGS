@@ -13,6 +13,18 @@ module.exports = {
 				path: `${__dirname}/blog`,
 			},
 		},
+		{
+			resolve: `gatsby-plugin-gatsby-cloud`,
+			options: {
+			  headers: {},
+			  allPageHeaders: [],
+			  mergeSecurityHeaders: true,
+			  mergeLinkHeaders: true,
+			  mergeCachingHeaders: true,
+			  transformHeaders: (headers, path) => headers,
+			  generateMatchPathRewrites: true,
+			},
+		  },
 		"gatsby-plugin-mdx",
 		"gatsby-transformer-sharp"
 	],
