@@ -7,7 +7,7 @@
   Gatsby minimal starter
 </h1>
 
-## 🚀 Does the clone get this version?
+## 🚀 Big test
 
 1.  **Create a Gatsby site.**
 
