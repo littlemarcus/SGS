@@ -2,9 +2,8 @@ exports.createPages = async ({ graphql, actions }) => {
 	const { createRedirect } = actions;
 		
     createRedirect({
-        fromPath: `/blog/*`,
+        fromPath: `/blog/first-post`,
         redirectInBrowser: true,
-        toPath: `https://www.eql.xyz/en-US/cookie-policy/`,
-        statusCode: 200,
+        toPath: `/blog/about-me`,
       })
 }
