@@ -3,7 +3,7 @@ exports.createPages = async ({ graphql, actions }) => {
 		
     createRedirect({
         fromPath: `/blog/*`,
-        toPath: "https://www.google.com/*",
+        toPath: "https://www.google.com/",
         statusCode: 200,
       });
 }
