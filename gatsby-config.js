@@ -1,4 +1,5 @@
 module.exports = {
+	trailingSlash: "always",
 	siteMetadata: {
 		title: `schweet gatsby site`,
 		siteUrl: `https://www.yourdomain.tld`,
