@@ -1,4 +1,5 @@
 module.exports = {
+	  pathPrefix: `/blog`,
 	siteMetadata: {
 		title: `schweet gatsby site`,
 		siteUrl: `https://www.yourdomain.tld`,
