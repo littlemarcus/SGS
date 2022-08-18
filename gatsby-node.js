@@ -4,7 +4,7 @@ exports.createPages = async ({ graphql, actions }) => {
     createRedirect({
         fromPath: `/blog/*`,
         // rewriting to a site on gatsby-cloud
-        toPath: "https://contentfulredirecttest.gatsbyjs.io",
+        toPath: "https://contentfulslugdemo.gatsbyjs.io/",
         statusCode: 200,
       });
 }
